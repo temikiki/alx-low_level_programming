@@ -14,10 +14,11 @@ int main(void)
 	{
 	putchar(x);
 	}
-	for (hi = 97; hi <= 103; hi++)
+	for (hi = 'a'; hi <= 'f'; hi++)
 
 	{
 	putchar(hi);
 	}
+	purchar('\n')
 	return (0);
 }
