@@ -1,25 +1,22 @@
 #include <stdio.h>
 
-/**
- * main - Entry point
+/*main - Entry point
  *
  * Return: Always 0 (success)
  */
 
 int main(void)
 {
-	
-	int n;
-	for (n = 47; n <= 58; n++)
-	
+	int t;
+	for (t = 48; t <= 57; t++)
 	{
-		putchar(n);
-		if (n != 57)
+		putchar(t);
+		if (t != 57)
 		{
 		putchar(44);
 		putchar(32);
 		}
+	}
 		putchar('\n');
 		return (0);
-	}
 }
