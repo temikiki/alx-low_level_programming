@@ -3,6 +3,8 @@
 
 /**
  * _islower - returns 1 for lower case and 0 for uppercase
+ * 
+ * @c: the character in ASCII code
  *
  * Return: 0 or 1
  */
