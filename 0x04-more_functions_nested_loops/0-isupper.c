@@ -11,11 +11,13 @@
 
 int _isupper(int c)
 {
-	int c;
-
-	for (c = 65; c <= 90; c++)
+	if (c >= 65 && c <= 90)
 	{
-	_putchar(1);
+	return (1);
 	}
-	_putchar(0);
+	else
+	{
+	return (0);
+	}
+
 }
