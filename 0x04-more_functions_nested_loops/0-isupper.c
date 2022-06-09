@@ -13,7 +13,7 @@ int main(void)
 
 	for (c = 65; c <= 90; c++)
 	{
-	return (1);
+	_putchar(1);
 	}
-	return (0);
+	_putchar(0);
 }
