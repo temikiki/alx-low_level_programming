@@ -2,12 +2,14 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * _isupper - check the code
+ *
+ * @c: the character in ASCII code
  *
  * Return: 1 or 0
  */
 
-int main(void)
+int _isupper(int c)
 {
 	int c;
 
