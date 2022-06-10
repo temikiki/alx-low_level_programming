@@ -11,12 +11,17 @@
 
 int _isdigit(int c)
 {
-	if (c >= 48 && c >= 57)
+	char t = '0';
+	int isdigit = 0;
+
+	for (; t <= '9'; t++)
 	{
-	return (1);
+		if (t == c)
+		{
+			isdigit = 1;
+			break;
+		}
 	}
-	else
-	{
-	return (0);
-	}
+
+	return (isdigit);
 }
