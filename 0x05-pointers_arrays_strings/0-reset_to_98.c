@@ -11,15 +11,5 @@
 
 void reset_to_98(int *n)
 {
-	int c;
-	
-	c = 36;
-
-
-	n = &c;
-
-	
 	*n = 90;
-
-	putchar(c);
 }
