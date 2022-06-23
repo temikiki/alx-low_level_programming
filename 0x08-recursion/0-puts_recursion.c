@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * _puts_recursions calls the function 
- * @*s: is an array of input string to print
+ * _puts_recursions - calls the function
+ * @s: is an array of input string to print
  *
  * Return: void
  */
