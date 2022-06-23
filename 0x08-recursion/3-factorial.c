@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * factorial - calculates the factorial of a number
+ * @n:is an integer value
+ *
+ * Return: the result of the function and if an error occur returns -1
+ */
+
+int factorial(int n)
+{
+	if (n < 1)
+	{
+		return (-1);
+	}
+	if (n == 1)
+	{
+		return (0);
+	}
+	else
+	{
+		return (1 + factorial(n - 1));
+	}
+}
